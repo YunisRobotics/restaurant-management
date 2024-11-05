@@ -42,7 +42,7 @@ class Restaurant:
         total_cost = 0
         fullname = input("Can you enter your name and surname: ")
         while(check):
-            print("Please enter the ID of meal that you want:")
+            print("Please enter the ID number of meal that you want:")
             menus = open("Menu.txt","r")
             if(menus.readable()):
                 info = menus.readlines()
